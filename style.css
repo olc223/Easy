@@ -1,0 +1,117 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header header header"
+    "sidebar-1 sidebar-1 sidebar-1 sidebar-2 sidebar-2 sidebar-2"
+    "main main main main div div";
+  color: white;
+  font-size: xx-large;
+  font-family: monospace;
+}
+
+.header { 
+  grid-area: header; 
+  background-color: #0597F2; 
+  text-align: center;
+  padding: 100px;
+}
+
+.sidebar-1 { 
+  grid-area: sidebar-1; 
+  background-color: #F2AB27;
+  text-align: center;
+  padding: 100px;
+}
+
+.sidebar-2 { 
+  grid-area: sidebar-2; 
+  background-color: #F2CB05;
+  text-align: center;
+  padding: 100px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "main main main main div div";
+  color: white;
+  font-size: xx-large;
+  font-family: monospace;
+}
+
+.main { 
+  grid-area: main; 
+  background-color: #69BFAF;
+  text-align: center;
+  padding: 100px;
+}
+
+.div { 
+  grid-area: div; 
+  background-color: #0597F2;
+  text-align: center;
+  padding: 100px;
+}
+
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.3fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "sidebar-3 sidebar-3 sidebar-4 sidebar-4 sidebar-5 sidebar-5"
+    "mainn mainn mainn mainn mainn mainn"
+    "footer footer footer footer footer footer";
+  color: white;
+  font-size: xx-large;    
+  font-family: monospace;
+}
+
+.sidebar-3 { 
+  grid-area: sidebar-3; 
+  background-color: #F2AB27;
+  text-align: center;
+  padding: 100px;
+}
+
+.sidebar-4 { 
+  grid-area: sidebar-4; 
+  background-color: #F2CB05;
+  text-align: center;
+  padding: 100px;
+}
+
+.sidebar-5 { 
+  grid-area: sidebar-5; 
+  background-color: #F2AB27;
+  text-align: center;
+  padding: 100px;
+}
+
+.mainn { 
+  grid-area: mainn; 
+  background-color: #69BFAF;
+  text-align: center;
+  padding: 100px;
+}
+
+.footer { 
+  grid-area: footer; 
+  background-color: #0597F2;
+  text-align: center;
+  padding: 20px;
+}
+
