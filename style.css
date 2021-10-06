@@ -16,21 +16,21 @@
 
 .header { 
   grid-area: header; 
-  background-color: #0597F2; 
+  background-color: pink; 
   text-align: center;
   padding: 100px;
 }
 
 .sidebar-1 { 
   grid-area: sidebar-1; 
-  background-color: #F2AB27;
+  background-color: blue;
   text-align: center;
   padding: 100px;
 }
 
 .sidebar-2 { 
   grid-area: sidebar-2; 
-  background-color: #F2CB05;
+  background-color: purple;
   text-align: center;
   padding: 100px;
 }
@@ -51,14 +51,14 @@
 
 .main { 
   grid-area: main; 
-  background-color: #69BFAF;
+  background-color: orange;
   text-align: center;
   padding: 100px;
 }
 
 .div { 
   grid-area: div; 
-  background-color: #0597F2;
+  background-color: pink;
   text-align: center;
   padding: 100px;
 }
@@ -82,35 +82,35 @@
 
 .sidebar-3 { 
   grid-area: sidebar-3; 
-  background-color: #F2AB27;
+  background-color: blue;
   text-align: center;
   padding: 100px;
 }
 
 .sidebar-4 { 
   grid-area: sidebar-4; 
-  background-color: #F2CB05;
+  background-color: purple;
   text-align: center;
   padding: 100px;
 }
 
 .sidebar-5 { 
   grid-area: sidebar-5; 
-  background-color: #F2AB27;
+  background-color: blue;
   text-align: center;
   padding: 100px;
 }
 
 .mainn { 
   grid-area: mainn; 
-  background-color: #69BFAF;
+  background-color: orange;
   text-align: center;
   padding: 100px;
 }
 
 .footer { 
   grid-area: footer; 
-  background-color: #0597F2;
+  background-color: pink;
   text-align: center;
   padding: 20px;
 }
